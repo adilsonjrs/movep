@@ -16,7 +16,7 @@ body, html {
 
 .top {
     height: 300px;
-    background: #083f91;
+    background: #172a2e;
 }
 
 form {
@@ -54,8 +54,8 @@ form > h2 {
 }
 
 .log > input:focus {
-    border-bottom: 1px solid #1057c277 ;
-    box-shadow: 0px 10px 13px -7px #1057c2aa;
+    border-bottom: 1px solid #172a2e;
+    box-shadow: 0px 10px 13px -7px #172a2e;
 }
 
 .log > button {
@@ -63,7 +63,7 @@ form > h2 {
     height: 50px;
     margin-top: 50px;
     cursor: pointer;
-    background: #1057c2;
+    background: #172a2e;
     color: #fff;
     border-radius: 5px;
     font-size: 1.1rem;
@@ -71,6 +71,6 @@ form > h2 {
 }
 
 .log > button:hover {
-    background: #1057c2e3;
+    background: #172a2ed9;
     transition: 300ms;
 }
