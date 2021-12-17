@@ -11,44 +11,67 @@
 body, html {
     width: 100vw;
     height: 100vh;
-    background: #f3f3f3;
-}
-
-.top {
-    height: 300px;
-    background: #172a2e;
+    background: rgb(12,22,24);
+    background: linear-gradient(180deg, rgba(12,22,24,1) 0%, rgba(12,22,24,0.7455357142857143) 75%, rgba(12,22,24,0.5242471988795518) 100%);
+    display: flex;
 }
 
 form {
+    height: 31.25rem;
+    width: 56.25rem;
     max-width: 100%;
-    width: 500px;
-    margin: -90px auto;
+    margin: auto;
+    display: flex;
     background: #fff;
-    border-radius: 5px;
     transition: 300ms;
+    border-radius: .6rem;
 }
 
+.info {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(12,22,24);
+    border-radius: .6rem 0 0 .6rem;
+    box-shadow: -8px 4px 17px 2px rgb(23, 35, 38);
+}
 
-form > h2 {
-    font-size: 2rem;
+.info > h2 {
+    margin-top: 8rem;
+    font-family: 'Audiowide', cursive;
+    font-size: 3rem;
+    color: #fff;
     font-weight: 400;
     text-align: center;
-    padding: 20px;
+}
+
+.info > p {
+    margin-top: 2rem;
+    word-spacing: 0.625rem;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 .log {
-    height: 350px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+}
+
+.log > p {
+    font-size: 2rem;
+    padding: 1.25rem;
 }
 
 .log > input {
-    width: 350px;
-    height: 50px;
-    margin-top: 40px;
+    width: 21.875rem;
+    height: 1.875rem;
     font-size: 1.2rem;
+    margin-top: 3rem;
     padding: .8rem;
     border-bottom: 1px solid #e4e4e4;
 }
@@ -59,13 +82,13 @@ form > h2 {
 }
 
 .log > button {
-    width: 350px;
-    height: 50px;
-    margin-top: 50px;
+    width: 21.875rem;
+    height: 3.125rem;
+    margin-top: 4.375rem;
     cursor: pointer;
     background: #172a2e;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     font-size: 1.1rem;
     transition: 300ms;
 }

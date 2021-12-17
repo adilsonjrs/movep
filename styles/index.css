@@ -13,7 +13,7 @@ body, html {
 }
 
 header {
-    height: 5rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     background: #0C1618;
@@ -35,17 +35,16 @@ header {
 }
 
 .ico > img {
-    width: 3.5rem;
+    width: 3rem;
     height: 100%;
-    margin-left: 0.625rem;
 }
 
 .nome-prestador {
-    margin-left: 1.3rem;
+    margin-left: .7rem;
 }
 
 .nome-prestador > h3 {
-    font-size: 1rem;
+    font-size: .9rem;
     color: #fff;
     font-weight: 300;
 }
@@ -58,10 +57,10 @@ header {
 }
 
 .usuario {
-    font-size: 1rem;
+    font-size: .9rem;
     color: #fff;
     font-weight: 300;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
 }
 
 .ico-sair {
@@ -88,23 +87,23 @@ header {
 }
 
 aside {
-    height: calc(100vh - 5rem);
-    width: 6rem;
+    height: calc(100vh - 4rem);
+    width: 5rem;
     background: #172a2e;
     transition: 400ms;
     padding-top: 10px;
 }
 
 aside:hover {
-    width: 20rem;
+    width: 15rem;
     transition: 400ms;
 }
 
-a {
+li > a {
    padding: 1rem 0;
 }
 
-a:hover {
+li > a:hover {
     background: #324b50;
     transition: 200ms;
 }
@@ -115,12 +114,12 @@ li > a {
 }
 
 li > a > img {
-    width: 2.5rem;
-    margin-left: 1.5rem;
+    width: 2.2rem;
+    margin-left: 1.3rem;
 }
 
 li > a > p {
-    font-size: 1rem;
-    margin-left: 2.4rem;
+    font-size: .8rem;
+    margin-left: 2rem;
     color: #f3f3f3;
 }
