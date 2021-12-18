@@ -16,7 +16,7 @@ body, html {
     display: flex;
 }
 
-form {
+#form1 {
     height: 31.25rem;
     width: 56.25rem;
     max-width: 100%;
@@ -96,4 +96,68 @@ form {
 .log > button:hover {
     background: #172a2ed9;
     transition: 300ms;
+}
+
+
+/* Responsividade */
+
+@media(max-width: 501px) {
+    #form1 {
+        display: none;
+    }
+
+    #form2 {
+        max-width: 300px;
+        margin: 100px auto;
+    }
+
+    .info2 {
+        max-width: 100%;
+    }
+
+    .info2 > h2 {
+        font-family: 'Audiowide', cursive;
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .info2 > p {
+        margin-top: 1rem;
+        word-spacing: 0.625rem;
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    .log2 {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0 32px;
+    }
+
+    .log2 > input {
+        background: none;
+        margin-top: 1rem;
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.309);
+        padding: 0 5px;
+    }
+
+    .log2 > button {
+        height: 2rem;
+        margin-top: 2rem;
+        border-radius: 2px;
+        color: #fff;
+        background: #172a2e;
+        cursor: pointer;
+        transition: 300ms;
+    }
+
+    .log2 > button:hover {
+        background: #192d31;
+    }
 }
