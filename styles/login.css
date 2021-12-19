@@ -98,6 +98,9 @@ body, html {
     transition: 300ms;
 }
 
+#form2 {
+    display: none;
+}
 
 /* Responsividade */
 
@@ -107,8 +110,9 @@ body, html {
     }
 
     #form2 {
-        max-width: 300px;
-        margin: 100px auto;
+        display: block;
+        max-width: 21.875rem;
+        margin: 6.25rem auto;
     }
 
     .info2 {
@@ -117,7 +121,7 @@ body, html {
 
     .info2 > h2 {
         font-family: 'Audiowide', cursive;
-        font-size: 3rem;
+        font-size: 3.8rem;
         color: #fff;
         font-weight: 400;
         text-align: center;
@@ -125,34 +129,37 @@ body, html {
 
     .info2 > p {
         margin-top: 1rem;
-        word-spacing: 0.625rem;
+        word-spacing: .6rem;
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1.5rem;
         text-align: center;
     }
 
     .log2 {
-        margin-top: 1rem;
+        margin-top: 1.3rem;
         display: flex;
         flex-direction: column;
-        padding: 0 32px;
+        padding: 0 0.938rem;
     }
 
     .log2 > input {
+        width: 100%;
         background: none;
-        margin-top: 1rem;
+        margin-top: 1.8rem;
         color: #fff;
         border-bottom: 1px solid rgba(255, 255, 255, 0.309);
-        padding: 0 5px;
+        padding: 0 0.313rem;
+        font-size: 1rem;
     }
 
     .log2 > button {
-        height: 2rem;
-        margin-top: 2rem;
+        height: 2.5rem;
+        margin-top: 4rem;
         border-radius: 2px;
+        font-size: 1rem;
         color: #fff;
-        background: #172a2e;
+        background: #2b4a50;
         cursor: pointer;
         transition: 300ms;
     }
